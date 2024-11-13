@@ -1,0 +1,115 @@
+oops
+entity class
+no of properties
+two string method = already declare in one class
+non primitive data types
+array object and string
+string is a class in object
+
+
+hands on coding:
+packages and access modifier 
+comprehending java packages
+hook concept-splitting data
+access modifier - public,private & default
+RULES FOR PACKAGES:
+  1. give a meaningful names.
+  2. organize a class based on their functionality.
+  3. always try to over nesting at package.
+  4. always keep a balance between the hierarchy and simplicity.
+  5. follow java naming conventions.
+  6. use lowercase for packages names and follow reserve domain notations.
+  7. use proper access modifiers to class within your packages.limit visibility to only what is necessary for other class.
+BENEFITS OF PACKAGES:
+   1.organization
+   2.encapsulation
+   3.code reusability
+   4.access production
+   5.maintainance
+modifier keyword and accessibility of a class
+Java language provides
+access modifier - provides boundary for accessing members of a class and class itself
+more restrictive - when it is upper to lower
+less restrictive - lower to upper
+non access modifier
+instances of b1 class
+single ton class - shares single memory from their own class
+,object cant be created 
+/and shared where ever needed
+how to create single ton class 
+*by creating a private constructor
+object  - static (run-automatically execute)keyword in reference = memory contructor - jvm (it needs a constructor)
+create a directory structure 
+my app
+package 2
+   1.app
+   2.model
+   3.con.tnsif
+
+
+
+user defined input and constructor
+different ways which user input and  output
+   1.scanner class 
+scanner input = new. scanner(system.in);
+
+
+
+import java.util.Scanner;
+
+public class Greeting {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter your name:");
+        String n = input.nextLine(); // Corrected method name
+        System.out.println("Hello " + n); // Added a space for better formatting
+        input.close(); // It's a good practice to close the scanner
+    }
+}
+
+reading character usijng the scanner class
+char c= reader.next().charA(0);
+Scanner----> strimg read
+reading input cheacking method.....
+hasNextDouble()
+hasNextline()
+hasNext()
+reuturns Boolean values.
+
+loop - take all the values in a collectuion-from array set list 
+one by  one u can use hasNext()if int hasNextint()
+
+buffer reader- why? ----> character read
+scanner reads and takes a lot of time to read a character
+but buffer reader data is stored as part part, efficient stores the data- used in th eto read the contect from the document
+
+file reader-buufer reader- text reader
+string-->int use pass int method...*
+
+int-float-long-char-double-boolean-short
+wrapper class-interger-floating-long - character
+
+
+packafge la we can create a normal file also*
+
+
+implicit default constructor-- if we dont assign constructor the jvm eill create the default constructor.assign the defaukt values of variables....*
+explixt cdefault constaructior -coder create the constartuctor.
+
+ru;les for creating the constructor
+same name for class.
+dont worry abt return type
+initate something to the object
+
+constructor- inital setting will provide(automativally)
+load page-->automatic loading content by the constructuer,,,
+
+ 
+
+
+
+
+
+
+   
+ 
